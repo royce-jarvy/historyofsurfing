@@ -1,0 +1,38 @@
+body {
+    background-image: url("https://t4.ftcdn.net/jpg/07/03/24/27/360_F_703242717_nUjX6zlWEpTscwARaZq4fyyOY57duYWL.jpg");
+    color: black;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: lightblue;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: fantasy;
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+img {
+    width: 200px;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+.image-item {
+    position: relative;
+}
+
+.centered-text-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
